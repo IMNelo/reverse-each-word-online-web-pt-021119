@@ -1,9 +1,12 @@
-def reverse_each_word("Hello there, and how are you?")
+def reverse_each_word(string)
   sentence.reverse_each_word
-  "#{sentence}"
+  "#{string}"
 end
 
 
+#Create method called `reverse_each_word` that takes in a string argument of a sentence
+#Returns that same sentence with each word reversed in place.
+#First solve it using `.each` Then utilize the same method using `.collect` to see the difference.
 
 
 
