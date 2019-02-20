@@ -1,9 +1,11 @@
 def reverse_each_word(string)
-  org_sentence = string.split(",") 
+  orig_sentence = string.split("") 
   chgd_sentence = []
- 
- 
-
+  
+  orig_sentence.each do |string|
+    chgd_sentence << string.reverse_each_word
+  end
+  chgd_sentence.join("")
 end
 
 
@@ -26,5 +28,7 @@ def reverse_each_word(string)
   return_array.join(" ")
 end
 
-#1.Turn string into an array, can't use enumerator on a string: `.split`
-#2.Create empty arr used to rturn the changed sentence
+#Can't use enumerators on a string so, turn string into an array, use `.split`
+#Create empty array, you'll use it to return the changed sentence later
+#Iterate through the orig_sentence w/ `.each`
+#Add the string to the empty area created earlierOperate on the chgd_sentence arraythrough the orig_sentence
