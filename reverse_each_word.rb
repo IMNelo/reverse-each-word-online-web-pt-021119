@@ -1,24 +1,23 @@
 def reverse_each_word(string)
+  arr = string.split(",")
+  new_arr = []
+ 
+ 
   sentence.reverse_each_word
   "#{string}"
 end
 
 
-#Create method called `reverse_each_word` that takes in a string argument of a sentence
+#Create `reverse_each_word` method that takes in a string argument
 #Returns that same sentence with each word reversed in place.
-#First solve it using `.each` Then utilize the same method using `.collect` to see the difference.
-
-
-
-#Reverse each word with ".each"
-#Returns that same sentence with each word reversed in place.
-  #First solve it using .each Then write the same method using .collect to see the difference.
+  #First solve it using `.each`
+  #Then utilize the same method using `.collect` to see the difference
+#!TIP! 
   #turn the string into an array
-  #.reverse reverses an array
+  #`.reverse` reverses an array
 
 def reverse_each_word(string)
-  # returns that same sentence with each word reversed in place.
-  #First solve it using .each Then write the same method using .collect to see the difference.
+
   #turn the string into an array
   #.reverse reverses an array
   original_array = string.split(" ")
