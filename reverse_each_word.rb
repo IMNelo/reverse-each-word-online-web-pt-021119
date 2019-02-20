@@ -1,12 +1,9 @@
 def reverse_each_word(string)
-#1.Turn string into an array cuz u can't use enumerator on a string: `.split`
-  arr = string.split(",")
-#Create empty arr you'll use to rturn the changed sentence/string
-  rturn_change = []
+  sentence = string.split(",") 
+  
+  rturn_change = [] 
  
- 
-  sentence.reverse_each_word
-  "#{string}"
+
 end
 
 
@@ -20,8 +17,7 @@ end
 
 def reverse_each_word(string)
 
-  #turn the string into an array
-  #.reverse reverses an array
+
   original_array = string.split(" ")
   return_array = []
   original_array.each do|string|
@@ -29,3 +25,6 @@ def reverse_each_word(string)
   end
   return_array.join(" ")
 end
+
+#1.Turn string into an array, can't use enumerator on a string: `.split`
+#2.Create empty arr used to rturn the changed sentence
