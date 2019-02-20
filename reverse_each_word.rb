@@ -1,7 +1,7 @@
 def reverse_each_word(string)
-  sentence = string.split(",") 
-  
-  rturn_change = [] 
+  org_sentence = string.split(",") 
+  chgd_sentence = []
+ 
  
 
 end
